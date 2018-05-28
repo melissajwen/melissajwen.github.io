@@ -13,8 +13,7 @@
 <!-- Mobile Specific Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- FONT -->
-<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<!-- ICONS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 <!-- CSS -->
@@ -31,80 +30,51 @@
 <!-- –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 
+  
+
+
+
 </head>
 <body>
+
+<div id="navbar">
+	<div class="row" style="width:125%; margin:auto" id="nav">
+		<ul>
+			<li><a href="index.html"><h6 style="color:#5f5f5f">HOME</h6></a></li>
+			<!-- <li><a href="index.html"><h6 style="color:#5f5f5f">+ PROJECTS</h6></a></li>  -->
+			<li><div class="dropdown">
+			  <button class="dropbtn"><h6>+ PROJECTS</h6></button>
+			  <div class="dropdown-content">
+			    <a href="resume.html">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			</div></li>
+			<li><a href="index.html"><h6 style="color:#5f5f5f">CONTACT</h6></a></li> 
+			<li><a href="resume.html"><h6 style="color:#5f5f5f">RESUME</h6></a></li> 
+		</ul>
+	</div>
+</div>
 
 <!-- Primary Page Layout -->
 <div class="wrapper"> 
   <div class="container" style="padding-top:2%">
     <div class="row">
-      <div class="eight columns" id="about">
-        <div id="name"><a href="index.html">Melissa Wen</a></div>
-        <h6>SOFTWARE ENGINEER</h6>
-    
+      <div class="ten columns" id="about">
+        <div id="name"><a href="index.html" style="font-weight:500; letter-spacing: 1.8px; color:black;">MELISSA WEN</a></div>
+        <h3 style="font-weight:300; letter-spacing: 3.2px; ">SOFTWARE ENGINEER</h3><br>
+
         <p>Hey there! My name is Melissa. I'm a hackathon fanatic, amateur designer, and aspiring software engineer.</p>
 
-        <p>I'm currently studying computer science at the University of Southern California in sunny Los Angeles, CA. On campus, I conduct research in a <a href="https://www.isi.edu/robots/" target="_blank">robotics lab</a>, am involved with <a href="http://kxsc.org" target="_blank">student radio</a>, and represent USC as an Admissions Ambassador (fight on!). </p>
+        <p>I'm currently studying computer science at the University of Southern California in sunny Los Angeles, CA. On campus, I conduct research in a <a href="https://www.isi.edu/robots/" target="_blank">robotics lab</a>, am involved with <a href="http://kxsc.org" target="_blank">student radio</a>, and represent USC as an <a href="https://orientation.usc.edu/spring-admit-ambassadors/#/melissa-wen" target="_blank">Admissions Ambassador</a> (fight on!). </p>
 
-        <p> I'm currently looking to join an awesome team as a software engineering intern during summer 2018. Feel free to check out my projects below, shoot me a <a href="mailto:wenm@usc.edu" target="_blank">message</a>, or view my <a href="https://drive.google.com/file/d/1wg6J0QNglHJRqB0OvWg84lPLvokpGeF_/view?usp=sharing" target="_blank">resume</a>!</p>        
+        <p> This summer I will be doing research at Tsinghua University in Beijing applying machine learning techniques to clean data. I'm also currently looking to join an awesome team as a software engineering intern during spring 2019. Feel free to check out my projects below, shoot me a <a href="mailto:wenm@usc.edu" target="_blank">message</a>, or view my <a href="resume.html">resume</a>!</p>        
       </div>
 
     </div>
   </div>
 
-  <!-- Projects -->
-  <div class="container" id="project" style="margin-top:3%">
 
-    <!--First Row-->
-    <div class="row" style="margin-bottom:8%">
-
-      <div class="six columns">
-        <div class="project">
-          <a href="torch.html">
-            <img src="img/torch.jpg" style="width:90%;">
-            Torch | Depression Detector
-            <h6 style="text-transform:uppercase; margin-top:0">LA Hacks, Apr 2017</h6>
-          </a>
-        </div>
-      </div>
-
-      <div class="six columns">
-        <div class="project">
-          <a href="litaf.html">
-            <img src="img/litaf.jpg" style="width:90%;">
-              LITAF | Automatic Grader
-            <h6 style="text-transform:uppercase; margin-top:0">HackTech, Mar 2017</h6>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!--Second Row-->
-    <div class="row" style="margin-bottom:1%">
-
-      <div class="six columns">
-        <div class="project">
-         <a href="succinct.html">
-            <img src="img/succinct.png" style="width:85%">
-            Succinct | Presentation Slides Generator
-            <h6 style="text-transform:uppercase; margin-top:0">Hack@UCI, Jan 2017</h6> 
-          </a>
-        </div>
-      </div>
-
-      <div class="six columns">
-        <div class="project">
-          <a href="hacktube.html">
-            <img src="img/hacktube.png" style="width:85%">
-            Hacktube | Internet Censorship
-            <h6 style="text-transform:uppercase; margin-top:0">SBHacks III, Jan 2017</h6>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 
 <footer>
@@ -115,10 +85,10 @@
     <i class="fa fa-linkedin" aria-hidden="true"></i></a>
     <a href="mailto:wenm@usc.edu" id="hvr-float">
     <i class="fa fa-envelope" aria-hidden="true"></i></a>
-    <a href="https://drive.google.com/file/d/1wg6J0QNglHJRqB0OvWg84lPLvokpGeF_/view?usp=sharing" id="hvr-float" target="_blank">
+    <a href="resume.html" id="hvr-float">
     <i class="fa fa-file-text" aria-hidden="true"></i></a>
   </div> 
-  <h6>© 2017 Melissa Wen</h6>
+  <h6 style="font-weight:300; letter-spacing: 2px; ">© 2018 Melissa Wen</h6><br><br><br>
 </footer> 
 
 </body>
